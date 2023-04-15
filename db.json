@@ -1,0 +1,19 @@
+{
+    "user" : [{
+        "id": 1,
+        "name": "Leanne Graham",
+        "address": "indore",
+        "email": "Sincere@april.biz",
+        
+        "phone": "8888899999",
+        "website": "hildegard.org"
+      },
+      {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": "ujjain",
+        "phone": "8888899999" 
+      }]
+}
