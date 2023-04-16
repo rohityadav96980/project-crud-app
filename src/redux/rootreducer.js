@@ -3,7 +3,7 @@ import reducer from "./reducer";
 
 const rootreducer = combineReducers(
     {
-        users:reducer
+        data: reducer
     });
 
 export default rootreducer;

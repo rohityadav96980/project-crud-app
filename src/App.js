@@ -1,14 +1,17 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import { AddUser } from './pages/AddUser';
+import { EditUser } from './pages/Edit';
 
 function App() {
   return (
     <div className="App">
-      <h2>Crud app</h2>
       <Routes>
         <Route path='/' element = {<Home/>}/>
-      </Routes>
+        <Route path="/addUser" element = {<AddUser/>}/>
+        <Route path = "/editUser/:id" element = {<EditUser/>} />
+      </Routes> 
     </div>
   );
 }
